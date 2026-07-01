@@ -24,12 +24,14 @@ export default function App() {
     window.open(getWhatsAppUrl(message), '_blank');
   };
 
-  // Gallery items using stunning high-quality Unsplash image URLs that perfectly match the user's real physical gym photos
+  // Gallery items using placeholder local assets until real photos are provided
   const galleryItems = [
-    { id: 2, src: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800&auto=format&fit=crop", title: "Strength Machine Floor", category: "Leg Extensions" },
-    { id: 3, src: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop", title: "Powerlifting & Racks", category: "Free Weights" },
-    { id: 4, src: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop", title: "Kettlebells & Functional Zone", category: "Functional Training" },
-    { id: 6, src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop", title: "1-on-1 Form Correction", category: "Amit Sir Coaching" }
+    { id: 1, src: "/assets/gallery-1.jpg", title: "Photo coming soon", category: "Photo coming soon" },
+    { id: 2, src: "/assets/gallery-2.jpg", title: "Photo coming soon", category: "Photo coming soon" },
+    { id: 3, src: "/assets/gallery-3.jpg", title: "Photo coming soon", category: "Photo coming soon" },
+    { id: 4, src: "/assets/gallery-4.jpg", title: "Photo coming soon", category: "Photo coming soon" },
+    { id: 5, src: "/assets/gallery-5.jpg", title: "Photo coming soon", category: "Photo coming soon" },
+    { id: 6, src: "/assets/gallery-6.jpg", title: "Photo coming soon", category: "Photo coming soon" }
   ];
 
   return (
