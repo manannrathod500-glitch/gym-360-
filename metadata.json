@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "Fitness 360 Gym",
+  "description": "Premium gym landing page in Ram Park, Rajkot, featuring form correction, personalized diet guidance, and beautiful 3D visuals.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
